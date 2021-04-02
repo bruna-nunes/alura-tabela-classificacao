@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 06
+  </title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Tabela de classificação</h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" class="page-logo"
+            alt="">
+    <div class="tabela">
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Vitórias</th>
+            <th>Empates</th>
+            <th>Derrotas</th>
+            <th>Pontos</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="tabelaJogadores">
+        </tbody>
+      </table>
+    </div>
+    <div class="cadastro">
+      <H2>Cadastrar jogador </H2>
+      <label for="inputNome" >Nome</label>
+      <input type="text" autocomplete="off" name="nome" id="inputNome">
+      <div class="estatisticas">
+        <label for="inputVitorias">Vitórias</label>
+        <input type="number"  autocomplete="off" name="inputVitorias" id="inputVitorias">
+        <label for="inputEmpates">Empates</label>
+        <input type="number" name="inputEmpates" autocomplete="off" id="inputEmpates">
+        <label for="inputDerrotas">Derrotas</label>
+        <input type="number" name="inputDerrotas" autocomplete="off" id="inputDerrotas">
+      </div>
+      <button type="button" class="btnCadastrar" onclick="cadastrarJogador()">Cadastrar jogador.</button>
+    </div>
+
+  </div>
+</body>
+
+</html>
